@@ -89,6 +89,7 @@ public class Main {
 			    userService.userAuthenticate(authCode.toString());
 			}
 		}
+		
 	    scanInput.close();
 		
 	}

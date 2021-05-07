@@ -22,7 +22,7 @@ public class LocalUserManager extends BaseUserManager implements UserService {
 	public User userRegister(String email, String password, String name, String surname) {
 		// TODO Auto-generated method stub
 		if(!checkEmail(email)) return null;
-		if(!checkPassword(email)) return null;
+		if(!checkPassword(password)) return null;
 		if(!checkName(name)) return null;
 		if(!checkSurname(surname)) return null;
 		int maxid=0;
